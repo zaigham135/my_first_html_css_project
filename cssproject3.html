@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            cssproject3
+        </title>
+        <style type="text/css">
+            body{
+                padding-left: 550px;
+            }
+            fieldset{
+                width: 235px;
+                height: 150px;
+                border-radius: 12px;
+                padding: 20px;
+                margin: 30px;
+                text-align: right;
+                
+            }
+            legend{
+                text-transform: uppercase;
+                font-size: normal;
+                font-weight: 100;
+                border: 1px solid;
+                border-radius: 12px;
+                background-color: antiquewhite;
+                text-align: left;
+                padding: 6px 12px 6px 12px;
+                
+                
+            }
+            div{
+              padding-top: 12px;
+            }
+            #name{  
+                border-top:none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 0.2ch solid;  
+            }
+            #email{
+                border: none;
+                border-bottom: 0.2ch solid;
+
+            }
+            #submit{
+                text-align:right;
+                border-radius: 5px;
+                background-color: rgb(64, 41, 41);
+                color: white;
+                text-transform: capitalize;
+                padding: 2px 5px 2px 5px;
+                
+            }
+                  
+            
+        </style>
+    </head>
+    <body>
+        <form action="www.Google.com" method="post">
+            <fieldset>
+                <legend>newsletter</legend>
+                <div class="first">
+                <label for="name" class="title">Name:</label>
+                <input type="text" id="name" name="name"/>
+                </div>
+                <div class="second">
+                    <label for="email" class="title">Email:</label>
+                    <input type="text" id="email" name="email"/>
+                </div>
+                <div class="third">
+                    <input type="submit" id="submit" value="subscribe"/>
+                </div>
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
